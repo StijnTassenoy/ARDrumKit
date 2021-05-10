@@ -2,8 +2,8 @@
 
 Tussentijdse Checklist:  
 - [x] Image target maken per onderdeel van het drumstel  
-- [ ] Juiste onderdeel laten verschijnen op juiste image target  
-- [ ] Virtual button toevoegen op elke image target  
+- [x] Juiste onderdeel laten verschijnen op juiste image target  
+- [x] Virtual button toevoegen op elke image target  
 - [ ] Juiste sound afspelen wanneer virtual button is ingedrukt  
 
 Extra functionaliteit (tijd over):
