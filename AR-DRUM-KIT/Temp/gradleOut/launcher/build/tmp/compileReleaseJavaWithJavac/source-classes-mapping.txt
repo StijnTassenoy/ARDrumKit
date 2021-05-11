@@ -1,0 +1,13 @@
+com/unity3d/player/R.java
+ com.unity3d.player.R
+ com.unity3d.player.R$style
+com/vuforia/engine/ext/R.java
+ com.vuforia.engine.ext.R
+com/DefaultCompany/ARDRUMKIT/R.java
+ com.DefaultCompany.ARDRUMKIT.R
+ com.DefaultCompany.ARDRUMKIT.R$id
+ com.DefaultCompany.ARDRUMKIT.R$mipmap
+ com.DefaultCompany.ARDRUMKIT.R$string
+ com.DefaultCompany.ARDRUMKIT.R$style
+com/DefaultCompany/ARDRUMKIT/BuildConfig.java
+ com.DefaultCompany.ARDRUMKIT.BuildConfig

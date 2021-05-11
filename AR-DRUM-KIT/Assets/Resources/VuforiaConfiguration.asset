@@ -17,11 +17,11 @@ MonoBehaviour:
     ufoLicenseKey: QVJlVkZLLy8vLy8vQUFBQUtIUi9wYUZVUUVpV3F1ZmpudEtIR1ZtUkhlQk1ZdmU3bnN5THd6NTBzblNiZ252QUdVRm13bjU4c0FmOExJaFg0b1phZ2VHYkdFbDVpUHd5M3A4cU9MblprK1NnMVdlV1RVNUNiU1o2R1NJM0gzVm1CZkZVMS95YmhsYXcybzRYdTNVYlpxaGxHQk5oU0oycEc4RGJ5SEtSZFlEckdqVzJsMTIzbDM5bFBqQzJnNnlhS1Y2djNqYzVqcmxnNFcxUWlwS1NsQ1VUTTJ6cndjWGZ2enQxV1M2NC9Ia2QzK1l1ZWZaUUU3NjM2Uml4ek5saWUvV2FDOVQyOWg1cDRBUnM2UjN2dkliTFVWKzJqVEJtaVVMdVFFdXN1UDJLUjhXaDN4U1lJdGJvUEZzbUlYQ0g5YTA3d2JVUGUrVG93SFk4dFgvL1k5TWVkNmlxS3lnRlpmdFRGRFRzNytrbXNXdGFqN0tjTjVLeG1IVkM=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 10
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     version: 8.1.12
-    eulaAcceptedVersions: '{"Values":["8.1"]}'
+    eulaAcceptedVersions: '{"Values":["8.1","0.0","8.5"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
