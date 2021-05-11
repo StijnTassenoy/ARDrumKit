@@ -6,6 +6,7 @@ using Vuforia;
 public class KickVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
 {
     VirtualButtonBehaviour[] virtualButtons;
+    public AudioSource kickSound;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +23,16 @@ public class KickVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         Debug.Log("...KICK IS BEING KICKED...");
+        playKick();
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         Debug.Log("...RELEASED...");
+    }
+
+    public void playKick(){ 
+        kickSound.Play();
     }
 
     // Update is called once per frame

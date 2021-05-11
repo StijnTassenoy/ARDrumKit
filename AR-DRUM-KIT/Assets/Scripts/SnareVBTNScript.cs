@@ -6,6 +6,7 @@ using Vuforia;
 public class SnareVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
 {
     VirtualButtonBehaviour[] virtualButtons;
+    public AudioSource snareSound;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +23,16 @@ public class SnareVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         Debug.Log("...SNARE IS BEING HIT...");
+        playSnare();
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         Debug.Log("...RELEASED...");
+    }
+
+    public void playSnare(){ 
+        snareSound.Play();
     }
 
     // Update is called once per frame

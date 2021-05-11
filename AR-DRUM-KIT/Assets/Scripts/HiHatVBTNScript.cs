@@ -6,6 +6,7 @@ using Vuforia;
 public class HiHatVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
 {
     VirtualButtonBehaviour[] virtualButtons;
+    public AudioSource hiHatSound;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +23,16 @@ public class HiHatVBTNScript : MonoBehaviour, IVirtualButtonEventHandler
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         Debug.Log("...HI HAT IS BEING HIT...");
+        playHiHat();
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
         Debug.Log("...RELEASED...");
+    }
+
+    public void playHiHat(){ 
+        hiHatSound.Play();
     }
 
     // Update is called once per frame
