@@ -48,7 +48,7 @@ public class soundcon : MonoBehaviour {
 
                     case "HH":
 
-                        myAudioSource.clip = aClips[0];
+                        myAudioSource.clip = aClips[8];
 
                         myAudioSource.Play();
 
